@@ -21,6 +21,7 @@ import { SITE } from "~/config.mjs";
 export default component$(() => {
   return (
     <>
+    <div class="h-[80vh] w-full lg:top-20 absolute bg-gradient-to-r from-gray-200 via-blue-200 to-gray-300"></div>
       <Hero />
       <Features
         highlight="Features"
