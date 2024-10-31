@@ -2,7 +2,7 @@ import { component$, useStore } from "@builder.io/qwik";
 import { useContent } from "@builder.io/qwik-city";
 
 import Logo from "~/components/common/Logo";
-import ToggleTheme from "~/components/common/ToggleTheme";
+// import ToggleTheme from "~/components/common/ToggleTheme";
 import ToggleMenu from "~/components/common/ToggleMenu";
 import IconChevronDown from "../icons/IconChevronDown";
 
@@ -36,7 +36,7 @@ export default component$(() => {
             <Logo />
           </a>
           <div class="flex items-center md:hidden">
-            <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
+            {/* <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" /> */}
             <ToggleMenu />
           </div>
         </div>
@@ -79,14 +79,14 @@ export default component$(() => {
         <div class="hidden md:self-center md:flex items-center md:mb-0 fixed w-full md:w-auto md:static justify-end left-0 rtl:left-auto rtl:right-0 bottom-0 p-3 md:p-0">
           <div class="items-center flex justify-between w-full md:w-auto">
             <div class="flex">
-              <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" />
+              {/* <ToggleTheme iconClass="w-6 h-6 md:w-5 md:h-5 md:inline-block" /> */}
             </div>
             <span class="ml-4 rtl:ml-0 rtl:mr-4">
               <a
                 href="https://github.com/onwidget/qwind"
                 class="btn btn-primary ml-2 py-2.5 px-5.5 md:px-6 font-semibold shadow-none text-sm w-auto"
               >
-                Download
+                Contact Us
               </a>
             </span>
           </div>
